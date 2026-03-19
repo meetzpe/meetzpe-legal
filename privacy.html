@@ -165,7 +165,7 @@
             <li><strong>Account Information:</strong> When you sign in using Google, Apple, or Facebook, we receive your name, email address, and profile photo from the authentication provider.</li>
             <li><strong>Business Listings:</strong> If you create a business listing, we collect the business name, description, category, address, contact information (phone, email, website, social media links), working hours, and images you upload.</li>
             <li><strong>Event Listings:</strong> If you create an event, we collect the event title, description, schedule, location, pricing, capacity, audience type, and images you upload.</li>
-            <li><strong>Transaction Information:</strong> If you purchase tickets, we may collect order details including the event, ticket type, and order amount. Payment card details are processed by our third-party payment processor (Stripe) and are never stored on our servers.</li>
+            <li><strong>Event Registrations:</strong> If you register for events, we collect the event details and registration status.</li>
         </ul>
 
         <h3>2.2 Information Collected Automatically</h3>
@@ -186,11 +186,10 @@
         <h2>3. How We Use Your Information</h2>
         <p>We use the information we collect to:</p>
         <ul>
-            <li><strong>Provide the Services:</strong> Create and manage your account, display business and event listings, process ticket purchases, and deliver push notifications.</li>
+            <li><strong>Provide the Services:</strong> Create and manage your account, display business and event listings, and deliver push notifications.</li>
             <li><strong>Improve the App:</strong> Monitor usage patterns and service performance to improve functionality and user experience.</li>
             <li><strong>Communicate with You:</strong> Send service-related notifications, updates, and respond to your inquiries.</li>
             <li><strong>Enforce Our Terms:</strong> Manage quotas, moderate content, prevent fraud, and enforce our Terms of Service.</li>
-            <li><strong>Process Payments:</strong> Facilitate ticket purchases and refunds through our payment processor, when available.</li>
         </ul>
 
         <h2>4. How We Share Your Information</h2>
@@ -233,12 +232,6 @@
                     <td><a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">Meta Privacy</a></td>
                 </tr>
                 <tr>
-                    <td><strong>Stripe</strong></td>
-                    <td>Payment processing (when available)</td>
-                    <td>Order amount, transaction ID</td>
-                    <td><a href="https://stripe.com/privacy" target="_blank" rel="noopener">Stripe Privacy</a></td>
-                </tr>
-                <tr>
                     <td><strong>Expo Push Notifications</strong></td>
                     <td>Push notifications</td>
                     <td>Push token, device platform</td>
@@ -272,7 +265,6 @@
             <li><strong>Server and Database:</strong> Our servers and database are hosted by Hetzner Cloud in the European Union (Germany).</li>
             <li><strong>Images:</strong> Uploaded images are stored on Hetzner S3-compatible Object Storage in the EU.</li>
             <li><strong>Authentication Data:</strong> Managed by Firebase Authentication (Google Cloud, United States).</li>
-            <li><strong>Payment Data:</strong> When payment features are available, payment data is processed by Stripe (United States/EU). We never store your credit card details.</li>
             <li><strong>Analytics Data:</strong> Analytics data is processed by PostHog (United States).</li>
             <li><strong>Local Device Storage:</strong> App preferences (language, theme) and authentication session tokens are stored locally on your device.</li>
         </ul>
@@ -284,17 +276,15 @@
             <li>Database access is restricted to localhost only, with password authentication.</li>
             <li>Server access is protected by firewall rules and SSH key authentication.</li>
             <li>Automatic security updates are enabled on our servers.</li>
-            <li>When payment features are available, payment information is handled by Stripe, which is PCI-DSS Level 1 certified.</li>
         </ul>
 
         <h3>5.3 International Data Transfers</h3>
-        <p>Some of our service providers (Firebase, Expo, PostHog, and when applicable, Stripe) are based in the United States. When your data is transferred outside the European Economic Area, it is protected by Standard Contractual Clauses or equivalent safeguards as required by applicable data protection laws.</p>
+        <p>Some of our service providers (Firebase, Expo, PostHog) are based in the United States. When your data is transferred outside the European Economic Area, it is protected by Standard Contractual Clauses or equivalent safeguards as required by applicable data protection laws.</p>
 
         <h2>6. Data Retention</h2>
         <ul>
             <li><strong>Active Accounts:</strong> We retain your personal information for as long as your account is active and as needed to provide the Services.</li>
             <li><strong>Deleted Accounts:</strong> When you delete your account, we delete your personal data, including your profile, businesses, events, orders, and uploaded images. Residual copies in backups are removed within 30 days.</li>
-            <li><strong>Transaction Records:</strong> We may retain transaction records as required by applicable tax and financial regulations.</li>
         </ul>
 
         <h2>7. Your Rights</h2>
